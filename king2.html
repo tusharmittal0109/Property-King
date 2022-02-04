@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="king2style.css">
+    <title>PropertyKing - Buy | Rent | Sell</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background: linear-gradient(to bottom, rgba(0,0,0,1) -80%, rgba(0,0,0,0.1) 100%);">
+        <div class="container">
+            <a href="#" class="navbar-brand">Property<span style="font-weight: 600;">King</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                        <a href="#feautured" class="nav-link">Featured</a>
+                    </li>
+                        <a href="#dealers" class="nav-link">Agents</a>
+                    </li>
+                        <a href="#contact_map" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="homePageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img1.jpg" class="d-block w-100 " alt="Building Image 1">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="img2.jpg" class="d-block w-100" alt="Building Image 2">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="img3.jpg" class="d-block w-100" alt="Building Image 3">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homePageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homePageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- specs -->
+    <section>
+        <div class="container pt-5 pb-5">
+            <div class="row text-center" data-aos="fade-up">
+                <div class="col-md">
+                    <h1 class="specs">
+                        10,540+ sq. feet
+                    </h1>
+                    <h4 class="specsInfo">
+                        Area Sold
+                    </h4>
+                </div>
+                <div class="col-md">
+                    <h1 class="specs">
+                        30+
+                    </h1>
+                    <h4 class="specsInfo">
+                        Contractors
+                    </h4>
+                </div>
+                <div class="col-md">
+                    <h1 class="specs">
+                        20+
+                    </h1>
+                    <h4 class="specsInfo">
+                        Properties Available
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- boxes -->
+    <section class="py-3" id="services">
+        <div class="container">
+            <h1 class="text-center text-dark" data-aos="fade-up">Our Services</h1>
+            <div class="row text-center gy-2 gx-3 py-2" data-aos="fade-up">
+                <div class="col-md">
+                    <div class="card bg-dark text-light design">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-tree"></i>
+                            </div>
+                            <h3 class="class-title mb-3">
+                                Buy
+                            </h3>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore totam soluta, aut sequi eligendi illum esse consequatur non voluptas ducimus?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center design">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <h3 class="class-title mb-3">
+                                Rent
+                            </h3>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore totam soluta, aut sequi eligendi illum esse consequatur non voluptas ducimus?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light design">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-house"></i>
+                            </div>
+                            <h3 class="class-title mb-3">
+                                Sell
+                            </h3>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore totam soluta, aut sequi eligendi illum esse consequatur non voluptas ducimus?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- properties -->
+    <section class="py-3" id="featured">
+        <div class="container">
+            <h1 class="text-center text-dark" data-aos="fade-up">Properties</h1>
+            <div class="row text-center gy-2 gx-3 py-2" data-aos="fade-up">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="prop-image">
+                        <img class="properties" src="H1.jfif" alt=""/>
+                    </div>
+                    <div class="card text-start prop-card shadow bg-dark text-light">
+                        <div class="card-body">
+                            <div class="first_part  d-flex justify-content-between">
+                                <div class="prop_address mx-1">
+                                    <h5 class="class-title mb-1">
+                                        21, bara mohalla
+                                    </h5>
+                                    <p>
+                                        Khanpur, New Delhi
+                                    </p>
+                                </div>
+                                <div class="seller mx-1">
+                                    <p class="mb-1">Seller :</p> 
+                                    <h6>
+                                        Naman Mittal
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="second_part d-flex justify-content-between my-2">
+                                <div class="prop_specs_left mx-1">
+                                    <p class="card-text">
+                                        <span class="desc_less">
+                                            Area :
+                                        </span> 1420sqft <br>
+                                        <span class="desc_less">
+                                            Bedroom : 
+                                        </span> 3 <br>
+                                    </p>
+                                </div>
+                                <div class="prop_specs_right mx-1">
+                                    <p class="card-text text-start">
+                                        <span class="desc_less">
+                                            Parking :
+                                        </span> Unavailable <br>
+                                        <span class="desc_less">
+                                            Bathroom : 
+                                        </span> 4 <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_part d-flex justify-content-between">
+                        <p class="rent py-2">
+                            Rent
+                        </p>
+                        <p class="price py-2">
+                            ₹ 10,80,000/month
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="prop-image">
+                        <img class="properties" src="H2.jfif" alt="" />
+                    </div>
+                    <div class="card text-start prop-card shadow bg-dark text-light">
+                        <div class="card-body">
+                            <div class="first_part  d-flex justify-content-between">
+                                <div class="prop_address mx-1">
+                                    <h5 class="class-title mb-1">
+                                        21, bara mohalla
+                                    </h5>
+                                    <p>
+                                        Khanpur, New Delhi
+                                    </p>
+                                </div>
+                                <div class="seller mx-1">
+                                    <p class="mb-1">Seller :</p> 
+                                    <h6>
+                                        Naman Mittal
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="second_part d-flex justify-content-between my-2">
+                                <div class="prop_specs_left mx-1">
+                                    <p class="card-text">
+                                        <span class="desc_less">
+                                            Area :
+                                        </span> 1420sqft <br>
+                                        <span class="desc_less">
+                                            Bedroom : 
+                                        </span> 3 <br>
+                                    </p>
+                                </div>
+                                <div class="prop_specs_right mx-1">
+                                    <p class="card-text text-start">
+                                        <span class="desc_less">
+                                            Parking :
+                                        </span> Unavailable <br>
+                                        <span class="desc_less">
+                                            Bathroom : 
+                                        </span> 4 <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_part d-flex justify-content-between">
+                        <p class="rent py-2">
+                            Rent
+                        </p>
+                        <p class="price py-2">
+                            ₹ 10,80,000/month
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="prop-image">
+                        <img class="properties" src="H3.jfif" alt="" />
+                    </div>
+                    <div class="card text-start prop-card shadow bg-dark text-light">
+                        <div class="card-body">
+                            <div class="first_part  d-flex justify-content-between">
+                                <div class="prop_address mx-1">
+                                    <h5 class="class-title mb-1">
+                                        21, bara mohalla
+                                    </h5>
+                                    <p>
+                                        Khanpur, New Delhi
+                                    </p>
+                                </div>
+                                <div class="seller mx-1">
+                                    <p class="mb-1">Seller :</p> 
+                                    <h6>
+                                        Naman Mittal
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="second_part d-flex justify-content-between my-2">
+                                <div class="prop_specs_left mx-1">
+                                    <p class="card-text">
+                                        <span class="desc_less">
+                                            Area :
+                                        </span> 1420sqft <br>
+                                        <span class="desc_less">
+                                            Bedroom : 
+                                        </span> 3 <br>
+                                    </p>
+                                </div>
+                                <div class="prop_specs_right mx-1">
+                                    <p class="card-text text-start">
+                                        <span class="desc_less">
+                                            Parking :
+                                        </span> Unavailable <br>
+                                        <span class="desc_less">
+                                            Bathroom : 
+                                        </span> 4 <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_part d-flex justify-content-between">
+                        <p class="rent py-2">
+                            Rent
+                        </p>
+                        <p class="price py-2">
+                            ₹ 10,80,000/month
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="prop-image">
+                        <img class="properties" src="H1.jfif" alt=""/>
+                    </div>
+                    <div class="card text-start prop-card shadow bg-dark text-light">
+                        <div class="card-body">
+                            <div class="first_part  d-flex justify-content-between">
+                                <div class="prop_address mx-1">
+                                    <h5 class="class-title mb-1">
+                                        21, bara mohalla
+                                    </h5>
+                                    <p>
+                                        Khanpur, New Delhi
+                                    </p>
+                                </div>
+                                <div class="seller mx-1">
+                                    <p class="mb-1">Seller :</p> 
+                                    <h6>
+                                        Naman Mittal
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="second_part d-flex justify-content-between my-2">
+                                <div class="prop_specs_left mx-1">
+                                    <p class="card-text">
+                                        <span class="desc_less">
+                                            Area :
+                                        </span> 1420sqft <br>
+                                        <span class="desc_less">
+                                            Bedroom : 
+                                        </span> 3 <br>
+                                    </p>
+                                </div>
+                                <div class="prop_specs_right mx-1">
+                                    <p class="card-text text-start">
+                                        <span class="desc_less">
+                                            Parking :
+                                        </span> Unavailable <br>
+                                        <span class="desc_less">
+                                            Bathroom : 
+                                        </span> 4 <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_part d-flex justify-content-between">
+                        <p class="rent py-2">
+                            Rent
+                        </p>
+                        <p class="price py-2">
+                            ₹ 10,80,000/month
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="prop-image">
+                        <img class="properties" src="H2.jfif" alt="" />
+                    </div>
+                    <div class="card text-start prop-card shadow bg-dark text-light">
+                        <div class="card-body">
+                            <div class="first_part  d-flex justify-content-between">
+                                <div class="prop_address mx-1">
+                                    <h5 class="class-title mb-1">
+                                        21, bara mohalla
+                                    </h5>
+                                    <p>
+                                        Khanpur, New Delhi
+                                    </p>
+                                </div>
+                                <div class="seller mx-1">
+                                    <p class="mb-1">Seller :</p> 
+                                    <h6>
+                                        Naman Mittal
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="second_part d-flex justify-content-between my-2">
+                                <div class="prop_specs_left mx-1">
+                                    <p class="card-text">
+                                        <span class="desc_less">
+                                            Area :
+                                        </span> 1420sqft <br>
+                                        <span class="desc_less">
+                                            Bedroom : 
+                                        </span> 3 <br>
+                                    </p>
+                                </div>
+                                <div class="prop_specs_right mx-1">
+                                    <p class="card-text text-start">
+                                        <span class="desc_less">
+                                            Parking :
+                                        </span> Unavailable <br>
+                                        <span class="desc_less">
+                                            Bathroom : 
+                                        </span> 4 <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_part d-flex justify-content-between">
+                        <p class="rent py-2">
+                            Rent
+                        </p>
+                        <p class="price py-2">
+                            ₹ 10,80,000/month
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="prop-image">
+                        <img class="properties" src="H3.jfif" alt="" />
+                    </div>
+                    <div class="card text-start prop-card shadow bg-dark text-light">
+                        <div class="card-body">
+                            <div class="first_part  d-flex justify-content-between">
+                                <div class="prop_address mx-1">
+                                    <h5 class="class-title mb-1">
+                                        21, bara mohalla
+                                    </h5>
+                                    <p>
+                                        Khanpur, New Delhi
+                                    </p>
+                                </div>
+                                <div class="seller mx-1">
+                                    <p class="mb-1">Seller :</p> 
+                                    <h6>
+                                        Naman Mittal
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="second_part d-flex justify-content-between my-2">
+                                <div class="prop_specs_left mx-1">
+                                    <p class="card-text">
+                                        <span class="desc_less">
+                                            Area :
+                                        </span> 1420sqft <br>
+                                        <span class="desc_less">
+                                            Bedroom : 
+                                        </span> 3 <br>
+                                    </p>
+                                </div>
+                                <div class="prop_specs_right mx-1">
+                                    <p class="card-text text-start">
+                                        <span class="desc_less">
+                                            Parking :
+                                        </span> Unavailable <br>
+                                        <span class="desc_less">
+                                            Bathroom : 
+                                        </span> 4 <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_part d-flex justify-content-between">
+                        <p class="rent py-2">
+                            Rent
+                        </p>
+                        <p class="price py-2">
+                            ₹ 10,80,000/month
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors -->
+    <section id="dealers" class="p-5">
+        <div class="containter">
+            <h2 class="text-center text-white" data-aos="fade-up">Our Dealers</h2>
+            <p class="lead text-center text-white mb-5" data-aos="fade-up">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, veritatis. Magnam soluta id doloremque fugiat.
+            </p>
+
+            <div class="row g-4" data-aos="fade-up">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="11.jpg" alt="" class="rounded-circle mb-3"/>
+                            <p class="card-text">
+                                <h3 class="card-title  mb-1">John Doe</h3>
+                                <button class="buttons" onclick="copy2()">
+                                    +91-9876543210
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="11w.jpg" alt="" class="rounded-circle mb-3"/>
+                            <p class="card-text">
+                                <h3 class="card-title mb-1">John Doe</h3>
+                                <button class="buttons" onclick="copy2()">
+                                    +91-5432198760
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="12.jpg" alt="" class="rounded-circle mb-3"/>
+                            <p class="card-text">
+                                <h3 class="card-title mb-1">John Doe</h3>
+                                <button class="buttons" onclick="copy2()">
+                                    +91-4321056789
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="12w.jpg" alt="" class="rounded-circle mb-3"/>
+                            <p class="card-text">
+                                <h3 class="card-title mb-1">John Doe</h3>
+                                <button class="buttons" onclick="copy2()">
+                                    +91-1234567890
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact and Map -->
+    <section class="p-5 font" id="contact_map">
+        <div class="container">
+            <div class="row g-4" data-aos="fade-up">
+                <div class="col-md px-4">
+                    <ul class="listInfo lead">
+                        <h2 class="text-start mb-2 contactHeading">Contact Info</h2>
+                        <div class="contactDetails">
+                            <li class="text-light mb-2">
+                                <!--<span class="fw-bold">Main Location :</span>-->50, Main Street,Boston
+                            </li>
+                            <li class="text-light mb-2">
+                                <!--<span class="fw-bold">Contact No. :</span>-->+91-9876543210
+                                <button class="buttons" onclick="copy5()">
+                                    <div>
+                                        <i class="material-icons text-light">
+                                            <span class="material-icons-round">
+                                                phone
+                                            </span>
+                                        </i>
+                                    </div>
+                                </button>
+                            </li>
+                            <li class="text-light mb-2">
+                                <!--<span class="fw-bold">Contact Mail :</span>-->contact@gmail.com
+                            </li>
+                            <li>                            
+                                <a href="#" class="m-3"><i class="bi bi-twitter text-light "></i></a>
+                                <a href="#" class="m-3"><i class="bi bi-facebook text-light "></i></a>
+                                <a href="#" class="m-3"><i class="bi bi-linkedin text-light "></i></a>
+                                <a href="#" class="m-3"><i class="bi bi-instagram text-light "></i></a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.8953512467147!2d77.20136891492055!3d28.512796082465083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1de1b4b43ab%3A0x21202a1cf5e2d9d9!2sUnique%20Impex!5e0!3m2!1sen!2sin!4v1643741434062!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer p-1 text-center position-relative">
+        <div class="container" id="copyRights">
+            <p>Copyright &copy; 2021 Frontend Bootcamp</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        function copy1(){
+            /*Copies to clipboard*/
+            navigator.clipboard.writeText(9876543210);
+        }
+        
+        function copy2(){
+            /*Copies to clipboard*/
+            navigator.clipboard.writeText(5432167890);
+        }
+        
+        function copy3(){
+            /*Copies to clipboard*/
+            navigator.clipboard.writeText(4321056789);
+        }
+        
+        function copy4(){
+            /*Copies to clipboard*/
+            navigator.clipboard.writeText(1234567890);
+        }
+        
+        function copy5(){
+            /*Copies to clipboard*/
+            navigator.clipboard.writeText(9876543210);
+        }
+    </script>
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+            offset: 50,
+        });
+    </script>
+
+</body>
+</html>
